@@ -60,7 +60,7 @@ include_once 'layouts/menu.php';
 
             <div class="row">
                 <div class="col-lg-6 col-md-6 mt-4 mt-md-0">
-                    <div class="box" data-aos="zoom-in" data-aos-delay="100" style="height: 453px;">
+                    <div class="box" data-aos="zoom-in" data-aos-delay="100" style="height: 440px;">
                         <h2>O lugar certo</h2><br>
                         <p style="text-align: left;">Isso mesmo! aqui na Facite Web Design é o lugar certo para você dar inicio a evolução do seu negócio. Somos uma agencia de web design esepecializada em criação de sites profissionais e plataformas de venda em wordpress, para gerar credibilidade e resultados para o seu negocio.</p>
                         <p style="text-align: left;">Em nossos serviços, levamos em consideração a criação de sites com layouts 100% responsivos, exclusivo e dinamico, com uma area exclusiva onde você, poderá gerenciar todo o conteudo de seu site, desde <strong>textos, imagens, videos</strong> até a criação de novas <strong>páginas.</strong></p>
@@ -69,7 +69,7 @@ include_once 'layouts/menu.php';
                 </div>
 
                 <div class="col-lg-6 col-md-6 mt-4 mt-lg-0">
-                    <div class="box" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="box" data-aos="zoom-in" data-aos-delay="200" style="height: 440px;">
                         <h2>Serviço Completo</h2><br>
                         <p style="text-align: left;">Ter um site para seu negócio é além de gerar confiança, também dar a impressao de ser maior e mais bem-sucedida no mercado. Com um site, seu negócio irá ultrapassar fronteiras, não depedendo de clientes apenas em seu bairro ou cidade, mas atingindo todo o mundo, atravez de um otimo trabalho de SEO e Marketign Digital.</p>
                         <h6 style="text-align: left;"><strong> Entregaremos seu site com...</strong></h6>

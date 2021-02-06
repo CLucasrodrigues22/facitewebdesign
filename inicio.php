@@ -40,7 +40,7 @@ include_once 'includes/servicos.php';
           <ul class="nav nav-tabs flex-column">
             <li class="nav-item" data-aos="fade-up">
               <a class="nav-link active show" data-toggle="tab" href="#tab-1">
-                <h4>Atrair novos clientes</h4>
+                <h4>Atrai investimento em sua ideia</h4>
                 <p>Ter um site é a principal forma para atrair novos clientes.
                   Muito além do seu bairro ou cidade, ter um site para o seu negócio,
                   irá fazer com que pessoas de todo o mundo conheçam o seu empresa.

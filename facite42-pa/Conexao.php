@@ -9,7 +9,7 @@ session_start();
 
 $host = "localhost";
 $user = "facite42_root";
-$pass = "L1n@d141P4uceK";
+$pass = "hWO35A7PPUIdabA2";
 $db = "facitewebdesign";
 
 

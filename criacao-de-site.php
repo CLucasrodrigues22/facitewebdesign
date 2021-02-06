@@ -10,10 +10,11 @@ include_once 'layouts/menu.php';
                 <div>
                     <h1>Criação de sites</h1>
                     <h2>Site institucional, hotsite, blog pessoal ou corporativo? precisa de algum desses? contrate agora o melhor plano e invista no crescimento do seu negócio</h2>
+                    <a href="#pricing" class="btn-get-started scrollto">Nossos Planos</a>
                 </div>
             </div>
             <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="fade-left">
-                <img src="assets/img/hero-img.png" class="img-fluid" alt="">
+                <img src="assets/img/criacaodesite.png" class="img-fluid" alt="">
             </div>
         </div>
     </div>

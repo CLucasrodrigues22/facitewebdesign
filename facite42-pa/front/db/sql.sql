@@ -1,33 +1,38 @@
 
 CREATE TABLE `avaliacao` (
-  `id` int NOT NULL,
+  `id` int(11) NOT NULL,
   `cliente` varchar(80) NOT NULL,
   `empresa` varchar(50) NOT NULL,
   `imagem` varchar(100) NOT NULL,
   `descricao` varchar(500) NOT NULL
 );
 
+
+
 INSERT INTO `avaliacao` (`id`, `cliente`, `empresa`, `imagem`, `descricao`) VALUES
 (12, 'teste', 'rteste', 'josy9c4d10b978adf0a1258616d1c99757e0.png', 'Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.'),
 (13, 'teste2', 'rtstd', 'IMG_20200910_104907_7293a0469d8aa849dc8a370ee9dd0a0126b.png', ' Ipsum has been the industry\'s standard dummy text ever since the 1500s, ');
 
 
+
 CREATE TABLE `faq` (
-  `id` int NOT NULL,
+  `id` int(11) NOT NULL,
   `pergunta` varchar(100) NOT NULL,
   `resposta` varchar(1000) NOT NULL
 );
 
 
-CREATE TABLE `imgLogo` (
-  `id` int NOT NULL,
+
+CREATE TABLE `imglogo` (
+  `id` int(11) NOT NULL,
   `imagem` varchar(100) NOT NULL,
-  `id_logo` int NOT NULL
+  `id_logo` int(11) NOT NULL
 );
 
 
+
 CREATE TABLE `logos` (
-  `id` int NOT NULL,
+  `id` int(11) NOT NULL,
   `cliente` varchar(80) NOT NULL,
   `subtitulo` varchar(100) NOT NULL,
   `lancamento` date DEFAULT NULL,
@@ -40,12 +45,11 @@ CREATE TABLE `logos` (
 
 
 CREATE TABLE `servico` (
-  `id` int NOT NULL,
+  `id` int(11) NOT NULL,
   `titulo` varchar(80) NOT NULL,
   `descricao` varchar(1000) NOT NULL,
   `imagem` varchar(100) NOT NULL
 );
-
 
 
 INSERT INTO `servico` (`id`, `titulo`, `descricao`, `imagem`) VALUES
@@ -55,16 +59,14 @@ INSERT INTO `servico` (`id`, `titulo`, `descricao`, `imagem`) VALUES
 (16, 'Identidade Visual', 'Toda marca precisa ter sua propria identidade, com um design unico e definido. Ter uma identidade visual é essencial para a asserção da sua marca e todas as midias.', 'ideia874edfb60fb83db6ee882fd250ce844b1130088f210d9f4e4da7878eb9f0a5b3.png');
 
 
-
 CREATE TABLE `sites` (
-  `id` int NOT NULL,
+  `id` int(11) NOT NULL,
   `nomeSite` varchar(50) NOT NULL,
   `lancamento` date DEFAULT NULL,
   `link` varchar(100) NOT NULL,
   `imagem` varchar(100) NOT NULL,
   `categoria` varchar(50) NOT NULL
 );
-
 
 
 INSERT INTO `sites` (`id`, `nomeSite`, `lancamento`, `link`, `imagem`, `categoria`) VALUES
@@ -74,10 +76,10 @@ INSERT INTO `sites` (`id`, `nomeSite`, `lancamento`, `link`, `imagem`, `categori
 
 
 CREATE TABLE `usuario` (
-  `id` int NOT NULL,
+  `id` int(11) NOT NULL,
   `nome` varchar(50) NOT NULL,
   `email` varchar(50) NOT NULL,
-  `genero` int NOT NULL,
+  `genero` int(11) NOT NULL,
   `usuario` varchar(50) NOT NULL,
   `cargo` varchar(50) NOT NULL,
   `telefone` varchar(20) DEFAULT NULL,
@@ -85,7 +87,6 @@ CREATE TABLE `usuario` (
   `senha` varchar(250) NOT NULL,
   `imagem` varchar(100) NOT NULL
 );
-
 
 
 INSERT INTO `usuario` (`id`, `nome`, `email`, `genero`, `usuario`, `cargo`, `telefone`, `nascimento`, `senha`, `imagem`) VALUES
@@ -97,99 +98,95 @@ ALTER TABLE `avaliacao`
   ADD PRIMARY KEY (`id`);
 
 --
--- Indexes for table `faq`
+-- Índices de tabela `faq`
 --
 ALTER TABLE `faq`
   ADD PRIMARY KEY (`id`);
 
 --
--- Indexes for table `imgLogo`
+-- Índices de tabela `imglogo`
 --
-ALTER TABLE `imgLogo`
+ALTER TABLE `imglogo`
   ADD PRIMARY KEY (`id`),
   ADD KEY `id_fk_logo` (`id_logo`);
 
 --
--- Indexes for table `logos`
+-- Índices de tabela `logos`
 --
 ALTER TABLE `logos`
   ADD PRIMARY KEY (`id`);
 
 --
--- Indexes for table `servico`
+-- Índices de tabela `servico`
 --
 ALTER TABLE `servico`
   ADD PRIMARY KEY (`id`);
 
 --
--- Indexes for table `sites`
+-- Índices de tabela `sites`
 --
 ALTER TABLE `sites`
   ADD PRIMARY KEY (`id`);
 
 --
--- Indexes for table `usuario`
+-- Índices de tabela `usuario`
 --
 ALTER TABLE `usuario`
   ADD PRIMARY KEY (`id`);
 
 --
--- AUTO_INCREMENT for dumped tables
+-- AUTO_INCREMENT para tabelas despejadas
 --
 
 --
--- AUTO_INCREMENT for table `avaliacao`
+-- AUTO_INCREMENT de tabela `avaliacao`
 --
 ALTER TABLE `avaliacao`
-  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
 
 --
--- AUTO_INCREMENT for table `faq`
+-- AUTO_INCREMENT de tabela `faq`
 --
 ALTER TABLE `faq`
-  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 
 --
--- AUTO_INCREMENT for table `imgLogo`
+-- AUTO_INCREMENT de tabela `imglogo`
 --
-ALTER TABLE `imgLogo`
-  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=31;
+ALTER TABLE `imglogo`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=31;
 
 --
--- AUTO_INCREMENT for table `logos`
+-- AUTO_INCREMENT de tabela `logos`
 --
 ALTER TABLE `logos`
-  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=24;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=24;
 
 --
--- AUTO_INCREMENT for table `servico`
+-- AUTO_INCREMENT de tabela `servico`
 --
 ALTER TABLE `servico`
-  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
 
 --
--- AUTO_INCREMENT for table `sites`
+-- AUTO_INCREMENT de tabela `sites`
 --
 ALTER TABLE `sites`
-  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
 --
--- AUTO_INCREMENT for table `usuario`
+-- AUTO_INCREMENT de tabela `usuario`
 --
 ALTER TABLE `usuario`
-  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
 
 --
--- Constraints for dumped tables
+-- Restrições para tabelas despejadas
 --
 
 --
--- Constraints for table `imgLogo`
+-- Restrições para tabelas `imglogo`
 --
-ALTER TABLE `imgLogo`
+ALTER TABLE `imglogo`
   ADD CONSTRAINT `id_fk_logo` FOREIGN KEY (`id_logo`) REFERENCES `logos` (`id`);
 COMMIT;
-
-/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
-/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
-/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

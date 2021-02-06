@@ -6,7 +6,7 @@
 
         <div class="col-lg-3 col-md-6">
           <div class="footer-info">
-            <h3>Logo</h3>
+            <a href="inicio"><img src="assets/img/logofundo.png" alt="" class="img-fluid" style="width: 120px; padding-bottom: 10px;"></a>
             <p>
               Agência de criação<br>
               de sites em Brasília, DF<br><br>

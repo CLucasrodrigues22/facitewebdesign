@@ -130,7 +130,7 @@ $avaliacoes = $avaliacaoModel->recuperarAvaliacaoInicio();
                                 <div class="flex-1 pt-1 ml-2">
                                     <h6 class="fw-bold mb-1"><?= $indiceServ->titulo ?></h6><small class="text-muted"><?= $indiceServ->descricao ?></small>
                                 </div>
-                                <div class="d-flex ml-auto align-items-center"><a href="" title="Editar"><i class="fas fa-pen"></i></a></div>
+                                <div class="d-flex ml-auto align-items-center"><a href="form_servico?acao=editar&id=<?= $indiceServ->id ?>" title="Editar"><i class="fas fa-pen"></i></a></div>
                             </div>
                             <div class="separator-dashed"></div>
                         <?php } ?>

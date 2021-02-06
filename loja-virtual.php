@@ -68,7 +68,7 @@ include_once 'layouts/menu.php';
             <div class="row">
                 <div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-5" data-aos="zoom-in">
                     <div class="icon-box icon-box-pink">
-                        <div class="icon"><i class="bx bxl-dribbble"></i></div>
+                        <div class="icon" style="padding-bottom: 10px;"><img src="assets/img/dispositivos.png" alt=""></div>
                         <h4 class="title"><a href="">Layout Responsivo</a></h4>
                         <p class="description">Sua loja estará acessivel em qualquer dispositivo, com todos os detalhes em seus devidos lugares e com um layout exclusivo.</p>
                     </div>
@@ -76,7 +76,7 @@ include_once 'layouts/menu.php';
 
                 <div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-5" data-aos="zoom-in" data-aos-delay="100">
                     <div class="icon-box icon-box-cyan">
-                        <div class="icon"><i class="bx bx-file"></i></div>
+                        <div class="icon" style="padding-bottom: 10px;"><img src="assets/img/caminhao-de-entrega.png" alt=""></div>
                         <h4 class="title"><a href="">Integração com Correios</a></h4>
                         <p class="description">Cauculos de frete automatico usando uma integração com os correios, o preço se baseará nas dimensoes do seu produto.</p>
                     </div>
@@ -84,7 +84,7 @@ include_once 'layouts/menu.php';
 
                 <div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-5" data-aos="zoom-in" data-aos-delay="200">
                     <div class="icon-box icon-box-green">
-                        <div class="icon"><i class="bx bx-tachometer"></i></div>
+                        <div class="icon" style="padding-bottom: 10px;"><img src="assets/img/toque.png" alt=""></div>
                         <h4 class="title"><a href="inicio">Integração Meios De Pagamento</a></h4>
                         <p class="description">Tenha em seu site varios tipos de pagamentos disponiveis, como <strong>PagSeguro, Paypal, Mercado Pago</strong>.</p>
                     </div>
@@ -92,7 +92,7 @@ include_once 'layouts/menu.php';
 
                 <div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-5" data-aos="zoom-in" data-aos-delay="300">
                     <div class="icon-box icon-box-blue">
-                        <div class="icon"><i class="bx bx-world"></i></div>
+                        <div class="icon" style="padding-bottom: 10px;"><img src="assets/img/roupas.png" alt=""></div>
                         <h4 class="title"><a href="">Controle de estoque</a></h4>
                         <p class="description">Controle o seu estoque com precisao, com variados tipos de categoria, como controle de tamanho e controle de quantidade.</p>
                     </div>
@@ -100,7 +100,7 @@ include_once 'layouts/menu.php';
 
                 <div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-5" data-aos="zoom-in" data-aos-delay="300">
                     <div class="icon-box icon-box-brown">
-                        <div class="icon"><i class="bx bx-world"></i></div>
+                        <div class="icon" style="padding-bottom: 10px;"><img src="assets/img/trabalho-em-equipe.png" alt=""></div>
                         <h4 class="title"><a href="">Controle de usuário</a></h4>
                         <p class="description">Um controle total sobre seus funcionários, com regras de permissão para cada tipo de cargo, e um usuário master, onde o mesmo poderá controlar tudo.</p>
                     </div>
@@ -108,7 +108,7 @@ include_once 'layouts/menu.php';
 
                 <div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-5" data-aos="zoom-in" data-aos-delay="300">
                     <div class="icon-box icon-box-red">
-                        <div class="icon"><i class="bx bx-world"></i></div>
+                        <div class="icon" style="padding-bottom: 10px;"><img src="assets/img/comprovante.png" alt=""></div>
                         <h4 class="title"><a href="">Criação de cupons de desconto</a></h4>
                         <p class="description">Você terá total liberdade em criar cupons de descontos e configurar o número de cupons, validade e muito mais.</p>
                     </div>
