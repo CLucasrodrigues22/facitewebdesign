@@ -10,7 +10,7 @@
             <p>
               Agência de criação<br>
               de sites em Brasília, DF<br><br>
-              <strong>Telefone:</strong> +1 5589 55488 55<br>
+              <!-- <strong>Telefone:</strong> +1 5589 55488 55<br> -->
               <strong>E-mail:</strong> <a href="mailto:contato@facitewebdesign.com.br">contato@facitewebdesign</a><br>
             </p>
             <div class="social-links mt-3">
