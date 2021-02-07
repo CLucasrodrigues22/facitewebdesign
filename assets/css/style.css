@@ -154,6 +154,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.3s;
   font-size: 15px;
   font-family: "Poppins", sans-serif;
+  font-weight: 600;
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
@@ -1616,6 +1617,7 @@ section {
   transition: 0.3s;
   display: inline-block;
   line-height: 1;
+  font-weight: bold;
 }
 
 #footer .footer-top .footer-links ul a:hover {

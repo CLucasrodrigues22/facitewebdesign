@@ -35,10 +35,10 @@
         <div class="col-lg-3 col-md-6 footer-links">
           <h4>Nossos Serviços</h4>
           <ul>
-            <li><i class="bx bx-chevron-right"></i> <a href="#">Criação de Sites</a></li>
-            <li><i class="bx bx-chevron-right"></i> <a href="#">Criação de Sites WordPress</a></li>
-            <li><i class="bx bx-chevron-right"></i> <a href="#">Lojas Virtuais</a></li>
-            <li><i class="bx bx-chevron-right"></i> <a href="#">Identidade Visual</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="criacao-de-site">Criação de Sites</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="site-wordpress">Criação de Sites WordPress</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="loja-virtual">Lojas Virtuais</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="identidade-visual">Identidade Visual</a></li>
           </ul>
         </div>
 
@@ -61,7 +61,7 @@
       &copy; Copyright <strong><span>Facite Web Design</span></strong>. Todos os Direitos Reservados
     </div>
     <div class="credits">
-      <a href="">Politica de Privacidade</a>
+      <a href="politica-de-privacidade">Política de Privacidade</a>
     </div>
   </div>
 </footer><!-- End Footer -->
