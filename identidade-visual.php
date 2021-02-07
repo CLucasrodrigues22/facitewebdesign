@@ -5,6 +5,14 @@ include_once 'includes/logo.php';
 ?>
 <section id="inicio">
     <div class="container">
+        <?php
+        $modal = ($_GET['msg'] == 'errorMsg' ? '<div class="alert alert-danger fade in alert-dismissible show"> <button type="button" class="close" data-dismiss="alert" aria-label="Close"> <span aria-hidden="true" style="font-size:20px">&times;</span> </button>    <strong>Erro ao enviar mensagem,</strong> tente novamente mais tarde! </div>' : '');
+        echo $modal;
+        ?>
+        <?php
+        $modal2 = ($_GET['msg'] == 'true' ? '<div class="alert alert-success fade in alert-dismissible show"> <button type="button" class="close" data-dismiss="alert" aria-label="Close"> <span aria-hidden="true" style="font-size:20px">&times;</span> </button>    <strong>Mensagem enviada com sucesso!</strong> em breve iremos entrar em contato com você! </div>' : '');
+        echo $modal2;
+        ?>
         <div class="row">
             <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center" data-aos="fade-up">
                 <div>
@@ -62,18 +70,18 @@ include_once 'includes/logo.php';
             <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
 
                 <?php foreach ($logos as $logo) { ?>
-                <div class="col-lg-4 col-md-6 portfolio-item filter-app" style="width: 515px;height: 355px;">
-                    <div class="portfolio-wrap">
-                        <img src="facite42-pa/front/assets/image/portfolio/logotipo/capas/<?= $logo->imagem?>" class="img-fluid" alt="" style="width: 393px;height: 262px;">
-                        <div class="portfolio-info">
-                            <h4><?= $logo->cliente?></h4>
-                            <p><?= $logo->subtitulo?></p>
-                        </div>
-                        <div class="portfolio-links">
-                            <a href="portfolio-details?id=<?= $logo->id?>" title="Mais Detalhes"><i class="bx bx-link"></i></a>
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-app" style="width: 515px;height: 355px;">
+                        <div class="portfolio-wrap">
+                            <img src="facite42-pa/front/assets/image/portfolio/logotipo/capas/<?= $logo->imagem ?>" class="img-fluid" alt="" style="width: 393px;height: 262px;">
+                            <div class="portfolio-info">
+                                <h4><?= $logo->cliente ?></h4>
+                                <p><?= $logo->subtitulo ?></p>
+                            </div>
+                            <div class="portfolio-links">
+                                <a href="portfolio-details?id=<?= $logo->id ?>" title="Mais Detalhes"><i class="bx bx-link"></i></a>
+                            </div>
                         </div>
                     </div>
-                </div>
                 <?php } ?>
 
             </div>

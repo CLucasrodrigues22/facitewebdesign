@@ -1,15 +1,31 @@
 <?php
 
-$novo = $_POST['novo'];
-$corpo = "
-    Novo: "         . $_POST['novo'] . "
-    Email:"         . $_POST['email'] . "
-";
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
-if (mail($novo, $corpo, 'From: facitebsb@facitewebdesign.com.br')) {
-  header("location: ../inicio?msg=success");
-  exit;
+  $mail_to = "facitebsb@facitewebdesign.com.br";
+  $mark = "Email para marketing";
+
+  $email = filter_var(trim($_POST["email"]), FILTER_SANITIZE_EMAIL);
+  
+  $content = "Email Marketing: $mark\n";
+  $content .= "Email: $email\n\n";
+
+  $headers = "From: $mark <$email>";
+
+  $success = mail($mail_to, $content, $headers);
+  if ($success) {
+      http_response_code(200);
+      header("location: ../inicio?novidade=true");
+      exit;
+  } else {
+      http_response_code(500);
+      header("location: ../inicio?novidade=false");
+      exit;
+  }
+
 } else {
-  header("location: ../inicio?msg=erroMsg");
+  http_response_code(403);
+  header("location: ../inicio?novidade=error");
   exit;
 }
+

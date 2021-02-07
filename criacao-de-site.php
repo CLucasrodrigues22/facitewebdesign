@@ -5,6 +5,10 @@ include_once 'layouts/menu.php';
 
 <section id="inicio">
     <div class="container">
+        <?php
+        $modal = ($_GET['msg'] == 'true' ? '<div class="alert alert-success fade in alert-dismissible show"> <button type="button" class="close" data-dismiss="alert" aria-label="Close"> <span aria-hidden="true" style="font-size:20px">&times;</span> </button>    <strong>Mensagem enviada com sucesso!</strong> em breve iremos entrar em contato com você! </div>' : '');
+        echo $modal;
+        ?>
         <div class="row">
             <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center" data-aos="fade-up">
                 <div>
@@ -29,7 +33,7 @@ include_once 'layouts/menu.php';
             </div>
 
             <div class="row">
-                
+
                 <div class="col-lg-4 col-md-6 mt-4 mt-md-0">
                     <div class="box" data-aos="zoom-in" data-aos-delay="100">
                         <h2>Plano<strong> Básico </strong></h2><br>

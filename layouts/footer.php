@@ -78,6 +78,8 @@
 <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
 <script src="assets/vendor/aos/aos.js"></script>
 
+<!-- recaptcha SCRIPT -->
+<script src="https://www.google.com/recaptcha/api.js"></script>
 <!-- Template Main JS File -->
 <script src="assets/js/main.js"></script>
 

@@ -6,6 +6,14 @@ include_once 'includes/servicos.php';
 
 <section id="inicio">
     <div class="container">
+        <?php
+        $modal = ($_GET['msg'] == 'errorMsg' ? '<div class="alert alert-danger fade in alert-dismissible show"> <button type="button" class="close" data-dismiss="alert" aria-label="Close"> <span aria-hidden="true" style="font-size:20px">&times;</span> </button>    <strong>Erro ao enviar mensagem,</strong> tente novamente mais tarde! </div>' : '');
+        echo $modal;
+        ?>
+        <?php
+        $modal2 = ($_GET['msg'] == 'true' ? '<div class="alert alert-success fade in alert-dismissible show"> <button type="button" class="close" data-dismiss="alert" aria-label="Close"> <span aria-hidden="true" style="font-size:20px">&times;</span> </button>    <strong>Mensagem enviada com sucesso!</strong> em breve iremos entrar em contato com você! </div>' : '');
+        echo $modal2;
+        ?>
         <div class="row">
             <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center" data-aos="fade-up">
                 <div>
@@ -42,7 +50,7 @@ include_once 'includes/servicos.php';
                                     <select id="inputState" class="form-control" name="servico" required>
                                         <option selected>Tipo de serviço</option>
                                         <?php foreach ($servicos as $opcSer) { ?>
-                                        <option value="CriacaoDeSite"><?=  $opcSer->titulo ?></option>
+                                            <option value="<?= $opcSer->titulo ?>"><?= $opcSer->titulo ?></option>
                                         <?php } ?>
                                     </select>
                                 </div>

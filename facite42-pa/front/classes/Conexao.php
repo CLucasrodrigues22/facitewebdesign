@@ -15,8 +15,8 @@ class Conexao
 
         $this->host = 'mysql:host=127.0.0.1;dbname=facitewebdesign'; 
 		$this->user = 'facite42_root'; 
-        $this->password = 'hWO35A7PPUIdabA2'; 
-		// $this->password = 'L1n@d141P4uceK'; 
+        // $this->password = 'hWO35A7PPUIdabA2'; 
+		$this->password = 'L1n@d141P4uceK'; 
 
 	}
 
