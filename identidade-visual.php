@@ -17,7 +17,7 @@ include_once 'includes/logo.php';
             <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center" data-aos="fade-up">
                 <div>
                     <h1>Identidade<br> Visual </h1>
-                    <h2>Identidade visual é o forma pela qual sua empresa será reconhecida em qualquer lugar, além de estratégias de branding para gerar valor e credibilidade.</h2>
+                    <h2>Identidade visual é a forma pela qual sua empresa será reconhecida em qualquer lugar, além de estratégias de branding para gerar valor e credibilidade.</h2>
                 </div>
             </div>
             <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="fade-left">
@@ -96,8 +96,8 @@ include_once 'includes/logo.php';
             </div>
             <div class="row" data-aos="zoom-in">
                 <div class="col-lg-12 text-center text-lg-left" style="margin-bottom: 6%;">
-                    <p>Muito além de uma logotipo, nós planejamos em estratigias para que o impacto da sua marca seja mais intenso o posivel. Durante a contrução, utilizamos o branding, que é uma metodologia estrategica que deixa em foco o real valor da sua marca. Com caracteristicas que ao serem vistas em qualquer lugar, automaticamente a pessoal irá associar a sua empresa.</p>
-                    <p>Você também irá contar com um design próprio para o seu catalogo, folders, flyers, cartao de visita embalagens e rotulos.</p>
+                    <p>Muito além de uma logotipo, nós planejamos em estrategias para que o impacto da sua marca seja mais intenso o possível. Durante a construção, utilizamos o branding, que é uma metodologia estratégica que deixa em foco o real valor da sua marca. Com características que ao serem vistas em qualquer lugar, automaticamente a pessoal irá associar a sua empresa.</p>
+                    <p>Você também irá contar com um design próprio para o seu catalogo, folders, flyers, cartão de visita embalagens e rótulos.</p>
                 </div>
             </div>
         </div>

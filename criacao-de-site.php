@@ -13,8 +13,8 @@ include_once 'layouts/menu.php';
             <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center" data-aos="fade-up">
                 <div>
                     <h1>Criação de sites</h1>
-                    <h2>Site institucional, hotsite, blog pessoal ou corporativo? precisa de algum desses? contrate agora o melhor plano e invista no crescimento do seu negócio</h2>
-                    <a href="#pricing" class="btn-get-started scrollto">Nossos Planos</a>
+                    <h2>Site institucional, hotsite, blog pessoal ou corporativo? Precisa de algum desses? Contrate agora o melhor plano e invista no crescimento do seu negócio.</h2>
+                    <a href="#pricing" class="btn-get-started scrollto">Veja Nossos Planos</a>
                 </div>
             </div>
             <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="fade-left">
@@ -29,7 +29,7 @@ include_once 'layouts/menu.php';
 
             <div class="section-title" data-aos="fade-up">
                 <h2>Planos <strong>Sites</strong></h2>
-                <p>Aqui estão nossos planos para criação de sites, agora, escolha o melhor plano e invista no crescimento do seu negócio 🚀</p>
+                <p>Aqui estão nossos planos para criação de sites, agora, escolha o melhor plano e invista no crescimento do seu negócio. 🚀</p>
             </div>
 
             <div class="row">
@@ -91,9 +91,8 @@ include_once 'layouts/menu.php';
                         </div>
                     </div>
                 </div>
-
             </div>
-
+            
         </div>
     </section>
 </main>

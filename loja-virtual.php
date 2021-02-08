@@ -17,7 +17,7 @@ include_once 'layouts/menu.php';
             <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center" data-aos="fade-up">
                 <div>
                     <h1>Criação de <br> Loja Virtual </h1>
-                    <h2>Tenha uma plataforma intuitiva, completa, totalmente personalizada e profissional para vendas online com varias funcionalidades.</h2>
+                    <h2>Tenha uma plataforma intuitiva, completa, totalmente personalizada e profissional para vendas online com várias funcionalidades.</h2>
                 </div>
             </div>
             <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="fade-left">
@@ -70,7 +70,7 @@ include_once 'layouts/menu.php';
 
             <div class="section-title" data-aos="fade-up">
                 <h2>Uma plataforma <strong>completa</strong> </h2>
-                <p>Confira todas as funcionalidades da sua loja virtual terá</p>
+                <p>Confira todas as funcionalidades da sua loja virtual terá:</p>
             </div>
 
             <div class="row">
@@ -78,7 +78,7 @@ include_once 'layouts/menu.php';
                     <div class="icon-box icon-box-pink">
                         <div class="icon" style="padding-bottom: 10px;"><img src="assets/img/dispositivos.png" alt=""></div>
                         <h4 class="title"><a href="">Layout Responsivo</a></h4>
-                        <p class="description">Sua loja estará acessivel em qualquer dispositivo, com todos os detalhes em seus devidos lugares e com um layout exclusivo.</p>
+                        <p class="description">Sua loja estará acessível em qualquer dispositivo, com todos os detalhes em seus devidos lugares e com um layout exclusivo.</p>
                     </div>
                 </div>
 
@@ -86,14 +86,14 @@ include_once 'layouts/menu.php';
                     <div class="icon-box icon-box-cyan">
                         <div class="icon" style="padding-bottom: 10px;"><img src="assets/img/caminhao-de-entrega.png" alt=""></div>
                         <h4 class="title"><a href="">Integração com Correios</a></h4>
-                        <p class="description">Cauculos de frete automatico usando uma integração com os correios, o preço se baseará nas dimensoes do seu produto.</p>
+                        <p class="description">Cálculos de frete automático usando uma integração com os correios, o preço se baseará nas dimensões do seu produto.</p>
                     </div>
                 </div>
 
                 <div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-5" data-aos="zoom-in" data-aos-delay="200">
                     <div class="icon-box icon-box-green">
                         <div class="icon" style="padding-bottom: 10px;"><img src="assets/img/toque.png" alt=""></div>
-                        <h4 class="title"><a href="inicio">Integração Meios De Pagamento</a></h4>
+                        <h4 class="title"><a href="inicio">Integração com Meios De Pagamento</a></h4>
                         <p class="description">Tenha em seu site varios tipos de pagamentos disponiveis, como <strong>PagSeguro, Paypal, Mercado Pago</strong>.</p>
                     </div>
                 </div>
@@ -102,7 +102,7 @@ include_once 'layouts/menu.php';
                     <div class="icon-box icon-box-blue">
                         <div class="icon" style="padding-bottom: 10px;"><img src="assets/img/roupas.png" alt=""></div>
                         <h4 class="title"><a href="">Controle de estoque</a></h4>
-                        <p class="description">Controle o seu estoque com precisao, com variados tipos de categoria, como controle de tamanho e controle de quantidade.</p>
+                        <p class="description">Controle o seu estoque com precisão, com variados tipos de categoria, como controle de tamanho e controle de quantidade.</p>
                     </div>
                 </div>
 
@@ -110,7 +110,7 @@ include_once 'layouts/menu.php';
                     <div class="icon-box icon-box-brown">
                         <div class="icon" style="padding-bottom: 10px;"><img src="assets/img/trabalho-em-equipe.png" alt=""></div>
                         <h4 class="title"><a href="">Controle de usuário</a></h4>
-                        <p class="description">Um controle total sobre seus funcionários, com regras de permissão para cada tipo de cargo, e um usuário master, onde o mesmo poderá controlar tudo.</p>
+                        <p class="description">Um controle total sobre seus funcionários, com regras de permissão para cada tipo de cargo, e um usuário ‘master’, onde o mesmo poderá controlar tudo.</p>
                     </div>
                 </div>
 

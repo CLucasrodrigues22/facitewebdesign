@@ -43,7 +43,7 @@ include_once 'includes/servicos.php';
                 <h4>Atrai investimento em sua ideia</h4>
                 <p>Ter um site é a principal forma para atrair novos clientes.
                   Muito além do seu bairro ou cidade, ter um site para o seu negócio,
-                  irá fazer com que pessoas de todo o mundo conheçam o seu empresa.
+                  irá fazer com que pessoas de todo o mundo conheçam o sua empresa.
                 </p>
               </a>
             </li>
@@ -60,19 +60,19 @@ include_once 'includes/servicos.php';
               <a class="nav-link" data-toggle="tab" href="#tab-3">
                 <h4>Aumento nas suas vendas</h4>
                 <p>Já pensou em ter um aumento nas suas vendas em grande escala?
-                  tendo seu produto divulgado muito além deu seu bairro ou cidade?
-                  pois é, tendo um site, sua empresa não terá fronteiras, atingindo o
-                  publico em todo o país, e gerando um aumento em seu faturamento.
+                  Tendo seu produto divulgado muito além deu seu bairro ou cidade?
+                  Você pode! Tendo um site, sua empresa não terá fronteiras, atingindo
+                   o público em todo o país, e gerando um aumento em seu faturamento.
                 </p>
               </a>
             </li>
             <li class="nav-item mt-2" data-aos="fade-up" data-aos-delay="300">
               <a class="nav-link" data-toggle="tab" href="#tab-4">
-                <h4>Estimação de estátisticas e resultados</h4>
-                <p>Recolher dados de possiveis clientes visitam o seu site,
-                  e demostram interesse por tal, é uma "mão na roda". Com isso,
-                  é possivel ter um histórico com detalhes e, facilitando futuras
-                  negociações em eles, definindo um ambiente propicio para possiveis
+                <h4>Estimação de estáticas e resultados</h4>
+                <p>Recolher dados de possíveis clientes visitam o seu site,
+                  e demostram interesse por tal, é uma “mão na roda”. Com isso,
+                  é possível ter um histórico com detalhes e, facilitando futuras
+                  negociações em eles, definindo um ambiente propicio para possíveis
                   novas visitas.
                 </p>
               </a>
@@ -116,7 +116,7 @@ include_once 'includes/servicos.php';
 
       <div class="section-title" data-aos="fade-up">
         <h2>Serviços</h2>
-        <p>Confira todos os serviços em que somos especializados</p>
+        <p>Confira todos os serviços em que somos especializados.</p>
       </div>
 
       <div class="row">
@@ -146,7 +146,7 @@ include_once 'includes/servicos.php';
 
       <div class="section-title" data-aos="fade-up">
         <h2>Portfólio de <strong>Sites</strong></h2>
-        <p>Veja abaixo o resultado de muito trabalho e dedicação em nossos serviços</p>
+        <p>Veja abaixo o resultado de muito trabalho e dedicação em nossos serviços.</p>
       </div>
 
       <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
