@@ -72,7 +72,7 @@ include_once 'includes/logo.php';
                 <?php foreach ($logos as $logo) { ?>
                     <div class="col-lg-4 col-md-6 portfolio-item filter-app" style="width: 515px;height: 355px;">
                         <div class="portfolio-wrap">
-                            <img src="facite42-pa/front/assets/image/portfolio/logotipo/capas/<?= $logo->imagem ?>" class="img-fluid" alt="" style="width: 393px;height: 262px;">
+                            <img src="facite42-pa/front/assets/image/portfolio/logotipo/capas/<?= $logo->imagem ?>" class="img-fluid" alt="">
                             <div class="portfolio-info">
                                 <h4><?= $logo->cliente ?></h4>
                                 <p><?= $logo->subtitulo ?></p>
