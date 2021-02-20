@@ -67,25 +67,21 @@ include_once 'layouts/menu.php';
             </div>
 
             <div class="row">
-                <div class="col-lg-6 col-md-6 mt-4 mt-md-0">
-                    <div class="box" data-aos="zoom-in" data-aos-delay="100" style="height: 440px;">
-                        <h2>O lugar certo</h2><br>
-                        <p style="text-align: left;">Isso mesmo! Aqui na Facite Web Design é o lugar certo para você dar início a evolução do seu negócio. Somos uma agência de web design especializada em criação de sites profissionais e plataformas de venda em wordpress, para gerar credibilidade e resultados para o seu negócio.</p>
+                <div class="col-lg-12 col-md-12 mt-4 mt-md-0">
+                    <div class="box" data-aos="zoom-in" data-aos-delay="100">
+                        <h2 style="text-align: initial;">O lugar certo</h2><br>
+                        <p style="text-align: left;">Isso mesmo! Aqui na Facite Web Design é o lugar certo para você dar início a evolução
+                            do seu negócio. Somos uma agência de web design especializada em criação de sites
+                            profissionais e plataformas de venda em wordpress, para gerar credibilidade e resultados
+                            para o seu negócio.</p>
                         <p style="text-align: left;">Em nossos serviços, consideramos a criação de sites com layouts 100% responsivos, exclusivo e dinâmico, com uma área exclusiva onde você, poderá gerenciar todo o conteúdo de seu site, desde <strong>textos, imagens, videos</strong> até a criação de novas <strong>páginas.</strong></p>
                         <p style="text-align: left;">Além de tudo isso, você terá seu site totalmente sob medida e nas primeiras posições de busca no <strong>Google</strong>, para ter mais visibilidade.</p>
                     </div>
                 </div>
-
-                <div class="col-lg-6 col-md-6 mt-4 mt-lg-0">
-                    <div class="box" data-aos="zoom-in" data-aos-delay="200" style="height: 440px;">
-                        <h2>Serviço Completo</h2><br>
-                        <p style="text-align: left;">Ter um site para seu negócio é além de gerar confiança, também dar a impressao de ser maior e mais bem-sucedida no mercado. Com um site, seu negócio irá ultrapassar fronteiras, não depedendo de clientes apenas em seu bairro ou cidade, mas atingindo todo o mundo, atravez de um otimo trabalho de SEO e Marketign Digital.</p>
-                        <h6 style="text-align: left;"><strong> Entregaremos seu site com...</strong></h6>
-                        <p style="text-align: left;">Ferramenta de edição de layout, otimizado para estar nas primeiras posições do Google, Treinamento para uso do site, suporte/manutenção do site e Hospedagem gratuita.</p>
-                        <p style="text-align: left;">Então não perca mais tempo e faça sua empresa esta um passo a frente da concorrência.</p>
-                    </div>
-                </div>
             </div>
+        </div><br><br>
+        <div class="col-12" style="text-align: center;">
+            <a href="#inicio" class="btn btn-success">Solicitar Orçamento</a>
         </div>
     </section>
 </main>

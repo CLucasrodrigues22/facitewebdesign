@@ -13,7 +13,7 @@ include_once 'layouts/menu.php';
             <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center" data-aos="fade-up">
                 <div>
                     <h1>Criação de sites</h1>
-                    <h2>Está precisnado de m site institucional? Ecomerce? Blog pessoa ou comporativo?
+                    <h2>Está precisnado de um site institucional? Ecomerce? Blog pessoa ou comporativo?
                         Hotsite? Ou uma modalidade de site especifica para o sua empresa?
                         O lugar é aqui, podendo começar planos incriveis que atendem desde do básico
                         na sua empresa até soluções mais avançadas, tudo para você investir

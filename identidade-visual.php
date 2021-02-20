@@ -16,8 +16,13 @@ include_once 'includes/logo.php';
         <div class="row">
             <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center" data-aos="fade-up">
                 <div>
-                    <h1>Identidade<br> Visual </h1>
-                    <h2>Identidade visual é a forma pela qual sua empresa será reconhecida em qualquer lugar, além de estratégias de branding para gerar valor e credibilidade.</h2>
+                    <h1>Cause<br> Impactos</h1>
+                    <h2>Faça como as grandes marcas, tenha a identidade certa para o seu negócio.
+                        Aqui trabalhos toda a identidade visual da sua empresa, para que ela não seja
+                        só mais um empreendimento generico no mercado digital, trabalhamos a sua diferenciação
+                        desde do inicio, com conceito e profissionalismo, para que seus clientes e fornecedores
+                        possam ter a percepção de marca da sua empresa.
+                    </h2>
                 </div>
             </div>
             <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="fade-left">
