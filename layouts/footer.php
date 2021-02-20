@@ -77,6 +77,7 @@
 <script src="assets/vendor/venobox/venobox.min.js"></script>
 <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
 <script src="assets/vendor/aos/aos.js"></script>
+<script src="assets/js/fontawesome.js"></script>
 
 <!-- recaptcha SCRIPT -->
 <script src="https://www.google.com/recaptcha/api.js"></script>

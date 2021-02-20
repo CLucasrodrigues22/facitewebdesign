@@ -14,8 +14,10 @@ include_once 'includes/servicos.php';
     <div class="row">
       <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center" data-aos="fade-up">
         <div>
-          <h1>Criação de sites profissionais</h1>
-          <h2>Elaboramos e produzimos os melhores sites, lojas virtuais e sites em wordpress para o seu negócio esteja um passo a frente.</h2>
+          <h1 data-aos="fade-up"><span class="typed-words"></span></h1>
+          <h2>Criamos seu site mostrando a essência da sua marca
+            ao mundo, com profissionais que amam o que fazem.
+          </h2>
           <a href="orcamento" class="btn-get-started scrollto">Faça seu orçamento</a>
         </div>
       </div>
@@ -33,47 +35,50 @@ include_once 'includes/servicos.php';
   <section id="features" class="features">
     <div class="container">
       <div class="section-title" data-aos="fade-up">
-        <h1>Por que ter um site?</h1>
+        <h1 style="text-align: initial;">Porque ter um site profissional?</h1>
       </div>
       <div class="row">
         <div class="col-lg-6 mt-2 mb-tg-0 order-2 order-lg-1">
           <ul class="nav nav-tabs flex-column">
             <li class="nav-item" data-aos="fade-up">
               <a class="nav-link active show" data-toggle="tab" href="#tab-1">
-                <h4>Atrai investimento em sua ideia</h4>
-                <p>Ter um site é a principal forma para atrair novos clientes.
-                  Muito além do seu bairro ou cidade, ter um site para o seu negócio,
-                  irá fazer com que pessoas de todo o mundo conheçam o sua empresa.
+                <h4>Visibilidade</h4>
+                <p><strong>Se ter um site ajuda a sua marca ou ideia a ser conhecida,
+                    imagina um site profissional!</strong> Mostre sua empresa ao mundo com toda a qualidade e profissionalismo
+                  que ela tem, facilitando para os seus clientes a te encontrarem nesse
+                  mar de informações que é a internet, com a gente, a sua empresa é vista
+                  porque mais importa para você.
                 </p>
               </a>
             </li>
             <li class="nav-item mt-2" data-aos="fade-up" data-aos-delay="100">
               <a class="nav-link" data-toggle="tab" href="#tab-2">
-                <h4>Credibilidade para sua empresa</h4>
-                <p>Tendo um site, você poderá fornecer todas as informações que seus clientes precisa saber sobre seu negócio,
-                  como produtos, serviços, valores, visão, endereço e muitas outras informações que possam
-                  está facilitando o contato do cliente com sua empresa.
+                <h4>Credibilidade</h4>
+                <p><strong>Quem confia em quem não conhece?</strong> Não basta ter um site para ser visto, você precisa gerar confiança
+                  em quem o acessa.
+                  Em um site profissional você mostra que tem qualidade e sabe o que está fazendo,
+                  gerando confiança, em seus cliente e fornecedores.
                 </p>
               </a>
             </li>
             <li class="nav-item mt-2" data-aos="fade-up" data-aos-delay="200">
               <a class="nav-link" data-toggle="tab" href="#tab-3">
-                <h4>Aumento nas suas vendas</h4>
-                <p>Já pensou em ter um aumento nas suas vendas em grande escala?
-                  Tendo seu produto divulgado muito além deu seu bairro ou cidade?
-                  Você pode! Tendo um site, sua empresa não terá fronteiras, atingindo
-                   o público em todo o país, e gerando um aumento em seu faturamento.
+                <h4>Aumento de vendas</h4>
+                <p><strong>Porque seu cliente quer comprar de quem ele conhece e confia!</strong>
+                  Tenha uma máquina de vendas para a sua empresa, com o seu site
+                  profissional totalmente pensado na experiência dos seus usuários,
+                  fica muito mais fácil do seu cliente comprar de você e te indicar,
+                  impulsione a sua vendas e conquiste o espaço no mercado que você merece.
                 </p>
               </a>
             </li>
             <li class="nav-item mt-2" data-aos="fade-up" data-aos-delay="300">
               <a class="nav-link" data-toggle="tab" href="#tab-4">
-                <h4>Estimação de estáticas e resultados</h4>
-                <p>Recolher dados de possíveis clientes visitam o seu site,
-                  e demostram interesse por tal, é uma “mão na roda”. Com isso,
-                  é possível ter um histórico com detalhes e, facilitando futuras
-                  negociações em eles, definindo um ambiente propicio para possíveis
-                  novas visitas.
+                <h4>Planejamento e resultados</h4>
+                <p><strong>Só chega lá quem se prepara!</strong>
+                  Com um site profissional tenha sempre em mãos os dados do seu site,
+                  para que você possa traçar estratégias efetivas para sua empresa e
+                  produto, a partir de informações reais dos seus cliente.
                 </p>
               </a>
             </li>
@@ -241,7 +246,18 @@ include_once 'includes/servicos.php';
   </section>
 
 </main>
-
+<script src="assets/js/typed.js"></script>
+<script>
+  var typed = new Typed('.typed-words', {
+    strings: ["Sua marca", "Sua empresa", "Sua ideia", "Como você nunca viu!"],
+    typeSpeed: 60,
+    backSpeed: 60,
+    backDelay: 4000,
+    startDelay: 800,
+    loop: true,
+    showCursor: true
+  });
+</script>
 <?php
 include_once 'layouts/footer.php';
 ?>

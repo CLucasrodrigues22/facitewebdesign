@@ -1171,14 +1171,11 @@ section {
 .pricing .advanced {
   width: 200px;
   position: absolute;
-  top: 18px;
-  right: -68px;
-  transform: rotate(45deg);
+  top: 4px;
+  right: -85px;
   z-index: 1;
   font-size: 14px;
   padding: 1px 0 3px 0;
-  background: #0076be;
-  color: #fff;
 }
 
 /*--------------------------------------------------------------

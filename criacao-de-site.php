@@ -13,7 +13,13 @@ include_once 'layouts/menu.php';
             <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center" data-aos="fade-up">
                 <div>
                     <h1>Criação de sites</h1>
-                    <h2>Site institucional, hotsite, blog pessoal ou corporativo? Precisa de algum desses? Contrate agora o melhor plano e invista no crescimento do seu negócio.</h2>
+                    <h2>Está precisnado de m site institucional? Ecomerce? Blog pessoa ou comporativo?
+                        Hotsite? Ou uma modalidade de site especifica para o sua empresa?
+                        O lugar é aqui, podendo começar planos incriveis que atendem desde do básico
+                        na sua empresa até soluções mais avançadas, tudo para você investir
+                        no seu crescimento, chegando nos seus clientes e fornecedores com qualidade,
+                        segurança e profissionalismo.
+                    </h2>
                     <a href="#pricing" class="btn-get-started scrollto">Veja Nossos Planos</a>
                 </div>
             </div>
@@ -36,6 +42,7 @@ include_once 'layouts/menu.php';
 
                 <div class="col-lg-4 col-md-6 mt-4 mt-md-0">
                     <div class="box" data-aos="zoom-in" data-aos-delay="100">
+                        <span class="advanced" title="Mais Informações" data-toggle="modal" data-target="#planobasico"><i class="fas fa-info-circle"></i></span>
                         <h2>Plano<strong> Básico </strong></h2><br>
                         <ul>
                             <li>Blog, Landing Page ou One Page</li>
@@ -55,6 +62,7 @@ include_once 'layouts/menu.php';
 
                 <div class="col-lg-4 col-md-6 mt-4 mt-lg-0">
                     <div class="box" data-aos="zoom-in" data-aos-delay="200">
+                        <span class="advanced" title="Mais Informações" data-toggle="modal" data-target="#planointermediario"><i class="fas fa-info-circle"></i></span>
                         <h2>Plano <strong>Intermediário</strong></h2><br>
                         <ul>
                             <li>Site Institucional, Catálogo</li>
@@ -74,7 +82,7 @@ include_once 'layouts/menu.php';
 
                 <div class="col-lg-4 col-md-6 mt-4 mt-lg-0">
                     <div class="box" data-aos="zoom-in" data-aos-delay="300">
-                        <!-- <span class="advanced">Advanced</span> -->
+                        <span class="advanced" title="Mais Informações" data-toggle="modal" data-target="#planopremium"><i class="fas fa-info-circle"></i></span>
                         <h2>Plano <strong>Premium</strong></h2><br>
                         <ul>
                             <li>Site dinâmico, portais</li>
@@ -92,10 +100,64 @@ include_once 'layouts/menu.php';
                     </div>
                 </div>
             </div>
-            
+
         </div>
     </section>
 </main>
+
+<div class="modal fade" id="planobasico" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel"><strong>Sobre o Plano Básico</strong></h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>Ideal para você que quer vender mais, um produto ou serviço especifico, ou
+                    até mesmo criar mais autoridade com conteúdos.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="planointermediario" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel"><strong>Sobre o Plano Intermediário</strong></h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>Esse site é para mostrar a sua empresa ou ideia ao mundo, deixe que todos
+                    vejam como é seu processo de produção, seus diferenciais, a sua história.
+                    Com um site desses você chega com estilo na internet, abrindo para o destaque que merece.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="planopremium" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel"><strong>Sobre o Plano Premium</strong></h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>Está precisando de um site completo que atenda desde das visitas básicas
+                    até as vendas finalizadas, então essa é a opção.
+                    Design, conteúdo, segurança e velocidade, tudo é um só lugar, um site completo
+                    para atender a todas as demandas da sua empresa no meio digital.</p>
+            </div>
+        </div>
+    </div>
+</div>
 
 <?php
 include_once 'layouts/footer.php';
