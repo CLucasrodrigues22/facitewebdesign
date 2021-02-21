@@ -46,8 +46,7 @@ include_once 'includes/servicos.php';
                 <p><strong>Se ter um site ajuda a sua marca ou ideia a ser conhecida,
                     imagina um site profissional!</strong> Mostre sua empresa ao mundo com toda a qualidade e profissionalismo
                   que ela tem, facilitando para os seus clientes a te encontrarem nesse
-                  mar de informações que é a internet, com a gente, a sua empresa é vista
-                  porque mais importa para você.
+                  mar de informações que é a internet, com a gente, a sua empresa terá a visibilidade que ela merece.
                 </p>
               </a>
             </li>
@@ -78,7 +77,7 @@ include_once 'includes/servicos.php';
                 <p><strong>Só chega lá quem se prepara!</strong>
                   Com um site profissional tenha sempre em mãos os dados do seu site,
                   para que você possa traçar estratégias efetivas para sua empresa e
-                  produto, a partir de informações reais dos seus cliente.
+                  produto, a partir de informações reais dos seus clientes.
                 </p>
               </a>
             </li>
@@ -140,7 +139,7 @@ include_once 'includes/servicos.php';
 
     </div>
     <div class="col-12" style="text-align: center;">
-      <a href="orcamento" class="btn btn-success">Pedir Orcamento</a>
+      <a href="orcamento" class="btn btn-success">Pedir Orçamento</a>
     </div>
   </section>
   <!-- End Services Section -->
@@ -183,7 +182,7 @@ include_once 'includes/servicos.php';
       <div class="row" data-aos="zoom-in">
         <div class="col-lg-9 text-center text-lg-left">
           <h3>Controle total para seu negócio</h3>
-          <p>Criamos a melhor plataforma para gerenciar conteúdo para a sua empresa. Tenha um painel administrativo onde você poderá ter autonomia para está atualizado <strong>imagens</strong>, <strong>textos</strong>, <strong>videos</strong> e muito mais.</p>
+          <p>Criamos a melhor plataforma para gerenciar conteúdo para a sua empresa. Tenha um painel administrativo onde você poderá ter autonomia para estar atualizando <strong>imagens</strong>, <strong>textos</strong>, <strong>vídeos</strong> e muito mais.</p>
         </div>
         <div class="col-lg-3 cta-btn-container text-center">
           <a class="btn btn-success" href="orcamento">Faça seu orçamento</a>
@@ -252,7 +251,7 @@ include_once 'includes/servicos.php';
     strings: ["Sua marca", "Sua empresa", "Sua ideia", "Como você nunca viu!"],
     typeSpeed: 60,
     backSpeed: 60,
-    backDelay: 4000,
+    backDelay: 1400,
     startDelay: 800,
     loop: true,
     showCursor: true

@@ -19,7 +19,7 @@ include_once 'layouts/menu.php';
                     <h1>Criação de <br> Loja Virtual </h1>
                     <h2>Tenha muito mais funcionalidades na sua loja,
                         itens totalmente inerentes a sua empresa e mercado de atuação,
-                        tá esperando o que?!</h2>
+                        tá esperando o quê?!</h2>
                 </div>
             </div>
             <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="fade-left">
@@ -72,7 +72,7 @@ include_once 'layouts/menu.php';
 
             <div class="section-title" data-aos="fade-up">
                 <h2>Uma plataforma <strong>completa</strong> </h2>
-                <p>Confira algumas das funcionalidades da sua loja virtual terá</p>
+                <p>Confira algumas das funcionalidades que sua loja virtual terá</p>
             </div>
 
             <div class="row">

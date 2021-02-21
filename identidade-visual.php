@@ -101,7 +101,7 @@ include_once 'includes/logo.php';
             </div>
             <div class="row" data-aos="zoom-in">
                 <div class="col-lg-12 text-center text-lg-left" style="margin-bottom: 6%;">
-                    <p>Muito além de uma logotipo, nós planejamos em estrategias para que o impacto da sua marca seja mais intenso o possível. Durante a construção, utilizamos o branding, que é uma metodologia estratégica que deixa em foco o real valor da sua marca. Com características que ao serem vistas em qualquer lugar, automaticamente a pessoal irá associar a sua empresa.</p>
+                    <p>Muito além de uma logotipo, nós planejamos em estrátegias para que o impacto da sua marca seja o mais intenso possível. Durante a construção, utilizamos o branding, que é uma metodologia estratégica que deixa em foco o real valor da sua marca. Com características que ao serem vistas em qualquer lugar, para que as pessoas reconheçam sua empresa rapidamente.</p>
                     <p>Você também irá contar com um design próprio para o seu catalogo, folders, flyers, cartão de visita embalagens e rótulos.</p>
                 </div>
             </div>

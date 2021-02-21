@@ -74,7 +74,7 @@ include_once 'layouts/menu.php';
                             do seu negócio. Somos uma agência de web design especializada em criação de sites
                             profissionais e plataformas de venda em wordpress, para gerar credibilidade e resultados
                             para o seu negócio.</p>
-                        <p style="text-align: left;">Em nossos serviços, consideramos a criação de sites com layouts 100% responsivos, exclusivo e dinâmico, com uma área exclusiva onde você, poderá gerenciar todo o conteúdo de seu site, desde <strong>textos, imagens, videos</strong> até a criação de novas <strong>páginas.</strong></p>
+                        <p style="text-align: left;">Em nossos serviços, consideramos a criação de sites com layouts 100% responsivos, exclusivo e dinâmico, com uma área exclusiva onde você poderá gerenciar todo o conteúdo de seu site, desde <strong>textos, imagens, vídeos</strong> até a criação de novas <strong>páginas.</strong></p>
                         <p style="text-align: left;">Além de tudo isso, você terá seu site totalmente sob medida e nas primeiras posições de busca no <strong>Google</strong>, para ter mais visibilidade.</p>
                     </div>
                 </div>

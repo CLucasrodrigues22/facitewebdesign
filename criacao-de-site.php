@@ -13,9 +13,9 @@ include_once 'layouts/menu.php';
             <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center" data-aos="fade-up">
                 <div>
                     <h1>Criação de sites</h1>
-                    <h2>Está precisnado de um site institucional? Ecomerce? Blog pessoa ou comporativo?
-                        Hotsite? Ou uma modalidade de site especifica para o sua empresa?
-                        O lugar é aqui, podendo começar planos incriveis que atendem desde do básico
+                    <h2>Está precisnado de um site institucional? Ecomerce? Blog pessoal ou corporativo?
+                        Hotsite? Ou uma modalidade de site específica para a sua empresa?
+                        O lugar é aqui, podendo começar planos incríveis que atendem desde o básico
                         na sua empresa até soluções mais avançadas, tudo para você investir
                         no seu crescimento, chegando nos seus clientes e fornecedores com qualidade,
                         segurança e profissionalismo.
@@ -115,7 +115,7 @@ include_once 'layouts/menu.php';
                 </button>
             </div>
             <div class="modal-body">
-                <p>Ideal para você que quer vender mais, um produto ou serviço especifico, ou
+                <p>Ideal para você que quer vender mais, um produto ou serviço específico, ou
                     até mesmo criar mais autoridade com conteúdos.</p>
             </div>
         </div>
@@ -134,7 +134,7 @@ include_once 'layouts/menu.php';
             <div class="modal-body">
                 <p>Esse site é para mostrar a sua empresa ou ideia ao mundo, deixe que todos
                     vejam como é seu processo de produção, seus diferenciais, a sua história.
-                    Com um site desses você chega com estilo na internet, abrindo para o destaque que merece.</p>
+                    Com um site desses você chega com estilo na internet, tendo o destaque que merece.</p>
             </div>
         </div>
     </div>
@@ -150,10 +150,10 @@ include_once 'layouts/menu.php';
                 </button>
             </div>
             <div class="modal-body">
-                <p>Está precisando de um site completo que atenda desde das visitas básicas
+                <p>Está precisando de um site completo que atenda desde as visitas básicas
                     até as vendas finalizadas, então essa é a opção.
-                    Design, conteúdo, segurança e velocidade, tudo é um só lugar, um site completo
-                    para atender a todas as demandas da sua empresa no meio digital.</p>
+                    Design, conteúdo, segurança e velocidade, tudo em um só lugar, um site completo
+                    para atender todas as demandas da sua empresa no meio digital.</p>
             </div>
         </div>
     </div>

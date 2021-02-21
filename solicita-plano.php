@@ -135,7 +135,7 @@ include_once 'layouts/menu.php';
                         echo $titulo;
                     }
                     ?>
-                    <h2>Um plano perfeito para para seu blog pessoal/empresarial, Landing page ou One Page. Com um painel administrativo para gerenciar seu conteudo.</h2>
+                    <h2>Um plano perfeito para para seu blog pessoal/empresarial, Landing page ou One Page. Com um painel administrativo para gerenciar seu conteúdo.</h2>
                 </div>
             </div>
             <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="fade-left">
